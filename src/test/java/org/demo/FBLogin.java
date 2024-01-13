@@ -21,6 +21,7 @@ public class FBLogin {
 		passWord.sendKeys("preethi0505");
 		WebElement login = driver.findElement(By.name("login"));
 		login.click();
+		driver.quit();
 		
 		
 	}
