@@ -22,7 +22,7 @@ public class FBLogin {
 		WebElement login = driver.findElement(By.name("login"));
 		login.click();
 		driver.quit();
-		
+		driver.get("https://in.yahoo.com");		
 		
 	}
 
